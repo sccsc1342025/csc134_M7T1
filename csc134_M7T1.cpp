@@ -38,11 +38,14 @@ int main() {
     cout << "M7T1 - Restaurant reviews" << endl;
     Restaurant lunch_place = Restaurant("Mi Casita", 4.5);
     Restaurant breakfast_place = Restaurant("Waffle House", 3.0);
+    Restaurant dinner_place = Restaurant("Panda Express", 4.0);
     cout << "Review info" << endl;
     cout << "Breakfast:" << endl;
     breakfast_place.printInfo();
     cout << "Lunch:" << endl;
     lunch_place.printInfo();
+    cout << "Dinner:" << endl;
+    dinner_place.printInfo();
 
     return 0;
 }
